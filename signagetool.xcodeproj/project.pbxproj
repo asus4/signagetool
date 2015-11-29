@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78249A431C0A928400494B21 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A3F1C0A928400494B21 /* CommandLine.swift */; };
-		78249A441C0A928400494B21 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A411C0A928400494B21 /* Option.swift */; };
-		78249A451C0A928400494B21 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A421C0A928400494B21 /* StringExtensions.swift */; };
-		78249A471C0A979500494B21 /* OptionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A461C0A979500494B21 /* OptionExtension.swift */; };
+		78249A691C0AC37900494B21 /* CommandArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A561C0AC37900494B21 /* CommandArguments.swift */; };
+		78249A6A1C0AC37900494B21 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A571C0AC37900494B21 /* Options.swift */; };
+		78249A6B1C0AC37900494B21 /* RawArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A581C0AC37900494B21 /* RawArguments.swift */; };
+		78249A6C1C0AC37900494B21 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A5A1C0AC37900494B21 /* CLI.swift */; };
+		78249A6D1C0AC37900494B21 /* CommandSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A5B1C0AC37900494B21 /* CommandSignature.swift */; };
+		78249A6E1C0AC37900494B21 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A5C1C0AC37900494B21 /* Extensions.swift */; };
+		78249A6F1C0AC37900494B21 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A5D1C0AC37900494B21 /* Router.swift */; };
+		78249A701C0AC37900494B21 /* ChainableCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A5F1C0AC37900494B21 /* ChainableCommand.swift */; };
+		78249A711C0AC37900494B21 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A601C0AC37900494B21 /* Command.swift */; };
+		78249A721C0AC37900494B21 /* CommandMessageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A611C0AC37900494B21 /* CommandMessageGenerator.swift */; };
+		78249A731C0AC37900494B21 /* LightweightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A621C0AC37900494B21 /* LightweightCommand.swift */; };
+		78249A741C0AC37900494B21 /* HelpCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A641C0AC37900494B21 /* HelpCommand.swift */; };
+		78249A751C0AC37900494B21 /* VersionCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A651C0AC37900494B21 /* VersionCommand.swift */; };
+		78249A761C0AC37900494B21 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A671C0AC37900494B21 /* Input.swift */; };
+		78249A771C0AC37900494B21 /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A681C0AC37900494B21 /* Output.swift */; };
+		78249A791C0AC84900494B21 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78249A781C0AC84900494B21 /* StringExtensions.swift */; };
 		78C06CFF1C0901DF00AA39F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C06CFE1C0901DF00AA39F5 /* main.swift */; };
 		78C06D061C0902BC00AA39F5 /* MouseControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C06D051C0902BC00AA39F5 /* MouseControl.swift */; };
 /* End PBXBuildFile section */
@@ -28,11 +40,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		78249A3F1C0A928400494B21 /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
-		78249A401C0A928400494B21 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78249A411C0A928400494B21 /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
-		78249A421C0A928400494B21 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		78249A461C0A979500494B21 /* OptionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionExtension.swift; sourceTree = "<group>"; };
+		78249A561C0AC37900494B21 /* CommandArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandArguments.swift; sourceTree = "<group>"; };
+		78249A571C0AC37900494B21 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		78249A581C0AC37900494B21 /* RawArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawArguments.swift; sourceTree = "<group>"; };
+		78249A5A1C0AC37900494B21 /* CLI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLI.swift; sourceTree = "<group>"; };
+		78249A5B1C0AC37900494B21 /* CommandSignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandSignature.swift; sourceTree = "<group>"; };
+		78249A5C1C0AC37900494B21 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		78249A5D1C0AC37900494B21 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		78249A5F1C0AC37900494B21 /* ChainableCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainableCommand.swift; sourceTree = "<group>"; };
+		78249A601C0AC37900494B21 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		78249A611C0AC37900494B21 /* CommandMessageGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandMessageGenerator.swift; sourceTree = "<group>"; };
+		78249A621C0AC37900494B21 /* LightweightCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightweightCommand.swift; sourceTree = "<group>"; };
+		78249A641C0AC37900494B21 /* HelpCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpCommand.swift; sourceTree = "<group>"; };
+		78249A651C0AC37900494B21 /* VersionCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionCommand.swift; sourceTree = "<group>"; };
+		78249A671C0AC37900494B21 /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		78249A681C0AC37900494B21 /* Output.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
+		78249A781C0AC84900494B21 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		78C06CFB1C0901DF00AA39F5 /* signagetool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = signagetool; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C06CFE1C0901DF00AA39F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		78C06D051C0902BC00AA39F5 /* MouseControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseControl.swift; sourceTree = "<group>"; };
@@ -49,23 +72,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78249A3E1C0A928400494B21 /* CommandLine */ = {
+		78249A541C0AC37900494B21 /* SwiftCLI */ = {
 			isa = PBXGroup;
 			children = (
-				78249A3F1C0A928400494B21 /* CommandLine.swift */,
-				78249A401C0A928400494B21 /* Info.plist */,
-				78249A411C0A928400494B21 /* Option.swift */,
-				78249A421C0A928400494B21 /* StringExtensions.swift */,
+				78249A551C0AC37900494B21 /* Arguments */,
+				78249A591C0AC37900494B21 /* CLI */,
+				78249A5E1C0AC37900494B21 /* Commands */,
+				78249A661C0AC37900494B21 /* IO */,
 			);
-			name = CommandLine;
-			path = CommandLine/CommandLine;
+			name = SwiftCLI;
+			path = SwiftCLI/SwiftCLI;
+			sourceTree = "<group>";
+		};
+		78249A551C0AC37900494B21 /* Arguments */ = {
+			isa = PBXGroup;
+			children = (
+				78249A561C0AC37900494B21 /* CommandArguments.swift */,
+				78249A571C0AC37900494B21 /* Options.swift */,
+				78249A581C0AC37900494B21 /* RawArguments.swift */,
+			);
+			path = Arguments;
+			sourceTree = "<group>";
+		};
+		78249A591C0AC37900494B21 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				78249A5A1C0AC37900494B21 /* CLI.swift */,
+				78249A5B1C0AC37900494B21 /* CommandSignature.swift */,
+				78249A5C1C0AC37900494B21 /* Extensions.swift */,
+				78249A5D1C0AC37900494B21 /* Router.swift */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		78249A5E1C0AC37900494B21 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				78249A5F1C0AC37900494B21 /* ChainableCommand.swift */,
+				78249A601C0AC37900494B21 /* Command.swift */,
+				78249A611C0AC37900494B21 /* CommandMessageGenerator.swift */,
+				78249A621C0AC37900494B21 /* LightweightCommand.swift */,
+				78249A631C0AC37900494B21 /* Special */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		78249A631C0AC37900494B21 /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				78249A641C0AC37900494B21 /* HelpCommand.swift */,
+				78249A651C0AC37900494B21 /* VersionCommand.swift */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		78249A661C0AC37900494B21 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				78249A671C0AC37900494B21 /* Input.swift */,
+				78249A681C0AC37900494B21 /* Output.swift */,
+			);
+			path = IO;
 			sourceTree = "<group>";
 		};
 		78C06CF21C0901DF00AA39F5 = {
 			isa = PBXGroup;
 			children = (
 				78C06CFD1C0901DF00AA39F5 /* signagetool */,
-				78249A3E1C0A928400494B21 /* CommandLine */,
+				78249A541C0AC37900494B21 /* SwiftCLI */,
 				78C06CFC1C0901DF00AA39F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,7 +157,7 @@
 			children = (
 				78C06CFE1C0901DF00AA39F5 /* main.swift */,
 				78C06D051C0902BC00AA39F5 /* MouseControl.swift */,
-				78249A461C0A979500494B21 /* OptionExtension.swift */,
+				78249A781C0AC84900494B21 /* StringExtensions.swift */,
 			);
 			path = signagetool;
 			sourceTree = "<group>";
@@ -162,12 +236,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78249A451C0A928400494B21 /* StringExtensions.swift in Sources */,
-				78249A441C0A928400494B21 /* Option.swift in Sources */,
-				78249A431C0A928400494B21 /* CommandLine.swift in Sources */,
+				78249A6C1C0AC37900494B21 /* CLI.swift in Sources */,
+				78249A721C0AC37900494B21 /* CommandMessageGenerator.swift in Sources */,
 				78C06CFF1C0901DF00AA39F5 /* main.swift in Sources */,
-				78249A471C0A979500494B21 /* OptionExtension.swift in Sources */,
+				78249A701C0AC37900494B21 /* ChainableCommand.swift in Sources */,
+				78249A751C0AC37900494B21 /* VersionCommand.swift in Sources */,
+				78249A6D1C0AC37900494B21 /* CommandSignature.swift in Sources */,
+				78249A6A1C0AC37900494B21 /* Options.swift in Sources */,
+				78249A771C0AC37900494B21 /* Output.swift in Sources */,
+				78249A761C0AC37900494B21 /* Input.swift in Sources */,
+				78249A711C0AC37900494B21 /* Command.swift in Sources */,
+				78249A6E1C0AC37900494B21 /* Extensions.swift in Sources */,
+				78249A6B1C0AC37900494B21 /* RawArguments.swift in Sources */,
+				78249A791C0AC84900494B21 /* StringExtensions.swift in Sources */,
+				78249A741C0AC37900494B21 /* HelpCommand.swift in Sources */,
 				78C06D061C0902BC00AA39F5 /* MouseControl.swift in Sources */,
+				78249A691C0AC37900494B21 /* CommandArguments.swift in Sources */,
+				78249A731C0AC37900494B21 /* LightweightCommand.swift in Sources */,
+				78249A6F1C0AC37900494B21 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

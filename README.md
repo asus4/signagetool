@@ -6,7 +6,13 @@ A command line tools for OSX Digital Signage.
 
 ```
 # move mouse cursor
-signagetool -c mouse -p 1200 800
+./signagetool mouse 1200 800
+
+# click
+./signagetool mouse 20 10 --click
+
+# right click
+./signagetool mouse 50 0 --rclick
 ```
 
 ## Build
@@ -19,4 +25,4 @@ git submodule update --init
 
 ## Libraries
 
-- [CommandLine](https://github.com/jatoben/CommandLine) : Apache License 2.0
+- [SwiftCLI](https://github.com/jakeheis/SwiftCLI) : MIT
